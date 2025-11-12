@@ -5,12 +5,12 @@ Files:
 - index.html — main page (update text/links & project details)
 - styles.css — responsive styles with a subtle dark theme and rainbow headline
 - script.js — small interactions (theme toggle, contact demo)
-- assets/ — place your CV (Ashok_CV.pdf), favicon, and images here
+- assets/ — Ashok_CV.pdf , favicon, and images here
 
 How to use:
 1. Extract the ZIP.
-2. Edit `index.html` to update project descriptions, GitHub/LinkedIn links and your email.
-3. Replace `assets/Ashok_CV.pdf` with your actual resume PDF (named exactly like that or update link).
+2. Edit `index.html` to update project descriptions, GitHub/LinkedIn links and my email.
+3. Replace `assets/Ashok_CV.pdf` with my actual resume PDF (named exactly like that or update link).
 4. Deploy to GitHub Pages / Netlify / Vercel by pushing to your repo and enabling GitHub Pages or connecting the repo.
 
 Notes & prioritized fixes for your existing site:
