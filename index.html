@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Ashok — Java / Full‑Stack Developer</title>
+    <meta
+      name="description"
+      content="Ashok — Java & Spring Boot developer. Portfolio with projects, skills and contact."
+    />
+    <meta property="og:title" content="Ashok — Java / Full‑Stack Developer" />
+    <meta
+      property="og:description"
+      content="Portfolio of Ashok — Java, Spring Boot, Microservices, Frontend."
+    />
+    <link rel="icon" href="assets/favicon.svg" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav">
+        <div class="brand">Ashok</div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button id="themeToggle" aria-label="Toggle theme">🌙</button>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="hero-left">
+          <h1 class="rainbow">Hi, I’m Ashok</h1>
+          <p class="lead">
+            I build scalable Java microservices and polished frontends.
+            Currently building cloud-native apps with Spring Boot, Docker and
+            PostgreSQL.
+          </p>
+          <p class="cta">
+            <a class="button" href="#projects">See my work</a>
+            <a class="button outline" href="assets/Ashok_ATS.pdf" download
+              >Download CV</a
+            >
+          </p>
+          <p class="meta">
+            Open to: <strong>Backend / Full‑Stack roles</strong> — Location:
+            India — <em>Available for remote / onsite</em>
+          </p>
+          <div class="social">
+            <a
+              href="https://github.com/ashoknandu-11"
+              target="_blank"
+              rel="noopener"
+              >GitHub</a
+            >
+            ·
+            <a
+              href="https://www.linkedin.com/in/ashok-thati-b64993254/"
+              target="_blank"
+              rel="noopener"
+              >LinkedIn</a
+            >
+          </div>
+        </div>
+        <div class="hero-right">
+          <img
+            src="assets/profileimg.png"
+            alt="Ashok Thati profile picture"
+            class="profile-pic"
+            onerror="this.style.display='none'"
+          />
+          <svg
+            class="fallback-avatar"
+            width="220"
+            height="220"
+            viewBox="0 0 200 200"
+          >
+            <defs>
+              <linearGradient id="g" x1="0" x2="1">
+                <stop offset="0" stop-color="#4f46e5" />
+                <stop offset="1" stop-color="#06b6d4" />
+              </linearGradient>
+            </defs>
+            <rect rx="20" width="200" height="200" fill="url(#g)" />
+            <text
+              x="50%"
+              y="55%"
+              dominant-baseline="middle"
+              text-anchor="middle"
+              font-size="60"
+              fill="#fff"
+            >
+              A
+            </text>
+          </svg>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <h2>Featured Projects</h2>
+        <div class="projects-grid">
+          <article class="card">
+            <h3>AI Job Matcher (Microservices)</h3>
+            <p class="muted">
+              Spring Boot • Kafka • PostgreSQL • Docker • React
+            </p>
+            <p>
+              Built a microservices-based job matchmaking engine that scores
+              candidate fit. Implemented REST APIs, event-driven flows, and a
+              React frontend.
+            </p>
+            <p class="tags">
+              Role: Full‑Stack •
+              <a
+                href="https://github.com/AshokNandu-11/DevHire"
+                aria-label="View repository"
+                >GitHub</a
+              >
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Event Showcase App</h3>
+            <p class="muted">Next.js • Supabase • Clerk • Tailwind</p>
+            <p>
+              Tier-based events platform with authentication, server-side
+              rendering, and tier management. Focus on accessibility and
+              performance.
+            </p>
+            <p class="tags">
+              Role: Frontend •
+              <a
+                href="https://github.com/AshokNandu-11/Task-Base-Event-Showcase"
+                aria-label="View repository"
+                >GitHub</a
+              >
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>NASA Picture Viewer</h3>
+            <p class="muted">HTML5 • JavaScript • LocalStorage</p>
+            <p>
+              Frontend app that consumes NASA’s Picture of the Day API with
+              search history and offline-friendly caching behavior.
+            </p>
+            <p class="tags">
+              Role: Frontend •
+              <a
+                href="https://github.com/AshokNandu-11/Nasa-images"
+                aria-label="View repository"
+                >GitHub</a
+              >
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="skills" class="section">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+          <div class="skill">
+            <h4>Backend</h4>
+            <p>
+              Java, Spring Boot, REST API design, Microservices, Kafka,
+              PostgreSQL, Hibernate
+            </p>
+          </div>
+          <div class="skill">
+            <h4>Frontend</h4>
+            <p>
+              HTML, CSS, JavaScript, React, Next.js, Responsive Design,
+              Accessibility
+            </p>
+          </div>
+          <div class="skill">
+            <h4>DevOps / Cloud</h4>
+            <p>Docker, GitHub Actions, CI/CD, AWS basics, Containerization</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="resume" class="section">
+        <h2>Resume</h2>
+        <p>Download a clean, ATS-friendly PDF of my resume:</p>
+        <a class="button" href="assets/Ashok_CV.pdf" download>Download CV</a>
+      </section>
+
+      <section id="contact" class="section">
+        <h2>Contact</h2>
+        <p>
+          If you want to reach out, email me at
+          <a href="mailto:thatiashok949@gmail.com">thatiashok949@gmail.com</a>
+          or send a message using the form below.
+        </p>
+
+        <form id="contact-form">
+          <input type="text" id="name" placeholder="Your Name" required />
+          <input type="email" id="email" placeholder="Your Email" required />
+          <textarea id="message" placeholder="Your Message" required></textarea>
+          <button type="submit" id="sendBtn">Send Message</button>
+          <p id="form-status"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© 2025 Ashok — Built with JOY · <a href="#home">Back to top</a></p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
