@@ -42,7 +42,7 @@
           </p>
           <p class="cta">
             <a class="button" href="#projects">See my work</a>
-            <a class="button outline" href="assets/Ashok_ATS.pdf" download
+            <a class="button outline" , id="btndownload" href="assets/Ashok_ATS.pdf" download
               >Download CV</a
             >
           </p>
@@ -199,8 +199,11 @@
         </p>
 
         <form id="contact-form">
+          <label for="name">Name:</label>
           <input type="text" id="name" placeholder="Your Name" required />
+          <label for="email">Email:</label>
           <input type="email" id="email" placeholder="Your Email" required />
+          <label for="message">Message:</label>
           <textarea id="message" placeholder="Your Message" required></textarea>
           <button type="submit" id="sendBtn">Send Message</button>
           <p id="form-status"></p>
