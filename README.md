@@ -10,7 +10,7 @@ Files:
 How to use:
 1. Extract the ZIP.
 2. Edit `index.html` to update project descriptions, GitHub/LinkedIn links and my email.
-3. Replace `assets/Ashok_CV.pdf` with my actual resume PDF (named exactly like that or update link).
+3. Replace `assets/Ashok_CV.pdf` with your actual resume PDF (named exactly like that or update link).
 4. Deploy to GitHub Pages / Netlify / Vercel by pushing to your repo and enabling GitHub Pages or connecting the repo.
 
 Notes & prioritized fixes for your existing site:
@@ -20,4 +20,4 @@ Notes & prioritized fixes for your existing site:
 4. Compress images and add `alt` text for accessibility.
 5. Add meta tags for better SEO and social previews.
 
-Happy to customize further — if you want, tell me which projects (titles + links + short bullet points) to include and I'll update the HTML accordingly.
+Happy to customize further — if you want, tell me which projects (titles + links + short bullet points) to include and I'll update my HTML accordingly.
